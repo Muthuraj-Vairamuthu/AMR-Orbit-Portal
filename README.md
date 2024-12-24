@@ -2,27 +2,27 @@ AMROrbit
 
 AMROrbit is a pivotal tool designed to empower governments globally in the rigorous monitoring and management of antimicrobial resistance (AMR). It provides visual insights that identify areas requiring immediate intervention and evaluates the effectiveness of stewardship and surveillance strategies, aiming to significantly curb the spread of AMR.
 
-The solution won an Innovation Award in the Vivli AMR Surveillance Data Challenge, 2024.
-
-
+This solution was honored with an Innovation Award in the Vivli AMR Surveillance Data Challenge, 2024.
 Tech Stack
 
-Next.js React Redux Node.js Express.js D3.js Tailwind CSS Material UI  Framer Motion HTML5 CSS3 JavaScript
+    Frontend: Next.js, React, Redux, Tailwind CSS, Material UI, Framer Motion, HTML5, CSS3, JavaScript
+    Backend: Node.js, Express.js
+    Data Visualization: D3.js
+
 Installation
 
-    Clone the repo
+    Clone the repository:
 
-  git clone https://github.com/Muthuraj-Vairamuthu/AMR-Orbit-Portal.git
+git clone https://github.com/Muthuraj-Vairamuthu/AMR-Orbit-Portal.git
 
-    Go to the project directory
+Navigate to the project directory:
 
-  cd amr-orbit-portal
+cd amr-orbit-portal
 
-    Install NPM packages
+Install NPM packages:
 
-  npm install
+npm install
 
-    Start the development server
+Start the development server:
 
-  npm run dev
-
+npm run dev
