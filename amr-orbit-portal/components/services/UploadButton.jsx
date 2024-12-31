@@ -1,24 +1,21 @@
-// src/components/services/UploadButton.jsx
-"use client"; 
+"use client";
 
 import React from "react";
-import { useRouter } from "next/navigation"; 
+import { useRouter } from "next/navigation";
 
 export default function UploadButton() {
-  const router = useRouter(); 
+  const router = useRouter();
 
   const handleNavigation = () => {
     router.push("/processing");
   };
 
   return (
-    <div className="upload-button-container">
-      <button
-        className="upload-button bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg"
-        onClick={handleNavigation}
-      >
-        Upload Your Dataset
-      </button>
-    </div>
+    <button
+      className="bg-[#0D1B32] hover:bg-[#0E2845] text-white font-bold py-4 px-8 text-lg rounded-lg shadow-lg transition duration-300 transform hover:scale-110"
+      onClick={handleNavigation}
+    >
+      Upload Your Dataset
+    </button>
   );
 }
